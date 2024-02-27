@@ -1,154 +1,106 @@
-/* .filter {
-    border-right: 0;
-}
-.left-bar {
-    position: fixed;
-    top: 10px;
-    bottom: 0;
-    height: calc(100% - 10px);
-    left: -276px;
-    box-shadow: none;
-    filter: drop-shadow(0.25em 0 1.15em rgba(0,0,0,0.2));
-    opacity: 0; 
-    transition: all .3s linear ;
-}
 .btn-filter {
-    position: fixed;
-    top: 50%;
-    left: 0;
-    width: 42px;
-    height: 262px;
-    z-index: 1001;
-    transition: all .3s linear;
-    opacity: 0;
+    display: none;
 }
-.btn-filter.show {
-    opacity: 1;
+@media only screen and (max-width: 764px) {
+    .filter {
+        height: auto;
+        border-right: 0;
+    }
+    .filter .close-btn, .filter-btn {
+        display: none;
+    }
+    .left-bar {
+        width: 312px;
+        padding-right: 36px;
+        background: none;
+        overflow: visible;
+        position: fixed;
+        top: 10px;
+        bottom: 0;
+        height: calc(100% - 10px);
+        left: -277px;
+        box-shadow: none;
+        opacity: 0; 
+        transition: all .3s linear ;
+    }
+    .left-bar.show {
+        width: 312px;
+        overflow: visible; 
+        height: calc(100% - 10px);
+    }
+    .left-bar.show:before {
+        filter: drop-shadow(3.5px 0 16px rgba(0,0,0,0.5));
+    }
+    .left-bar.show .btn-filter__handler {
+        filter: drop-shadow(18px 0 16px rgba(0,0,0,0.35));
+    }
+    .left-bar.btn-visible{
+        opacity: 1;
+    }
+    .left-bar:before {
+        content: "";
+        background: #fff;
+        position: absolute;
+        top: 0;
+        left: -0.5px;
+        width: 277px;
+        height: 100%;
+        z-index: -1;
+        filter: drop-shadow(3.5px 0 16px rgba(0,0,0,0.2));
+    }
+    .filter-body {
+        background: #fff;
+        border-right: 0;
+        height: 100%;
+        overflow-y: auto;
+        position: relative;
+    }
+    .btn-filter {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 36px;
+        height: 262px;
+        transition: all .3s linear;
+    }
+    .btn-filter.open .btn-filter__icon--filter{
+        opacity: 0;
+    }
+    .btn-filter.open .btn-filter__icon--close{
+        opacity: 1;
+    }
+    .btn-filter__handler {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        transition: all .3s linear;
+        filter: drop-shadow(18px 0 16px rgba(0,0,0,0.15));
+    }
+    .btn-filter__handler svg {
+        width: 100%;
+        height: 100%;
+    }
+    .btn-filter__icon{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: calc(50% - 10px);
+        left: calc(50% - 10px);
+        transition: all .3s linear;
+    }
+    .btn-filter__icon svg {
+        width: 100%;
+        height: 100%;
+    } 
+    .btn-filter__icon--close {
+        opacity: 0;
+    }
 }
-.btn-filter.show + .left-bar{
-    opacity: 1;
-}
-.btn-filter.transform {
-    transform: translateX(286px);
-}
-.btn-filter__handler {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    filter: drop-shadow(1.5em 0 1.15em rgba(0,0,0,0.15));
-    pointer-events: none;
-}
-.btn-filter__handler svg {
-    width: 100%;
-    height: 100%;
-}
-.btn-filter__icon{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: calc(50% - 10px);
-    left: calc(50% - 10px);
-}
-.btn-filter__icon svg {
-    width: 100%;
-    height: 100%;
-} */
-
-.filter {
-    height: auto;
-    border-right: 0;
-}
-.left-bar {
-    width: 312px;
-    padding-right: 36px;
-    background: none;
-    overflow: visible;
-    position: fixed;
-    top: 10px;
-    bottom: 0;
-    height: calc(100% - 10px);
-    left: -277px;
-    box-shadow: none;
-    opacity: 0; 
-    transition: all .3s linear ;
-}
-.left-bar.show {
-    width: 312px;
-    overflow: visible; 
-}
-.left-bar.show:before {
-    filter: drop-shadow(3.5px 0 16px rgba(0,0,0,0.5));
-}
-.left-bar.show .btn-filter__handler {
-    filter: drop-shadow(18px 0 16px rgba(0,0,0,0.35));
-}
-.left-bar.btn-visible{
-    opacity: 1;
-}
-.left-bar:before {
-    content: "";
-    background: #fff;
-    position: absolute;
-    top: 0;
-    left: -0.5px;
-    width: 277px;
-    height: 100%;
-    z-index: -1;
-    filter: drop-shadow(3.5px 0 16px rgba(0,0,0,0.2));
-}
-.filter-body {
-    background: #fff;
-    border-right: 0;
-    height: 100%;
-    overflow-y: auto;
-    position: relative;
-}
-.btn-filter {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    width: 36px;
-    height: 262px;
-    transition: all .3s linear;
-}
-.btn-filter.open .btn-filter__icon--filter{
-    opacity: 0;
-}
-.btn-filter.open .btn-filter__icon--close{
-    opacity: 1;
-}
-.btn-filter__handler {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    transition: all .3s linear;
-    filter: drop-shadow(18px 0 16px rgba(0,0,0,0.15));
-}
-.btn-filter__handler svg {
-    width: 100%;
-    height: 100%;
-}
-.btn-filter__icon{
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    top: calc(50% - 10px);
-    left: calc(50% - 10px);
-    transition: all .3s linear;
-}
-.btn-filter__icon svg {
-    width: 100%;
-    height: 100%;
-} 
-.btn-filter__icon--close {
-    opacity: 0;
-}
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     .left-bar {
         top: 0;
         height: 100%;
@@ -156,6 +108,7 @@
     .left-bar.show {
         left: 0;
         top: 0;
+        height: 100%;
     }
     .btn-filter {
         width: 28px;
@@ -169,7 +122,7 @@
         left: calc(50% - 8px);
     }
 }
-@media (max-height: 480px) {
+@media only screen and (max-height: 480px) {
     .btn-filter {
         height: 200px;
         top: calc(50% - 100px);
