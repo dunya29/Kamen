@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>cart-full-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Cart-/-Full" transform="translate(-1.000000, -3.000000)">
+            <g id="cart-full-icon" transform="translate(1.000000, 4.000000)">
+                <g id="Page-1">
+                    <path d="M19.9497924,5 L2.05048328,5 C0.721739625,5 -0.255453016,6.435 0.0593539626,7.922 L1.97997446,17 L19.7362798,17 L21.9230462,7.999 C22.2885004,6.493 21.3063423,5 19.9497924,5 M19.8832664,7 C19.947715,7.068 20.0409175,7.271 19.980435,7.523 L18.1669514,15 L3.59860009,15 L2.01613982,7.505 C1.9606149,7.245 2.06174957,7.061 2.1172745,7 L19.8832664,7" id="Fill-1" fill="#000000"></path>
+                    <path d="M5,6 L9,0" id="Stroke-3" stroke="#000000" stroke-width="2"></path>
+                    <path d="M17,6 L13,0" id="Stroke-5" stroke="#000000" stroke-width="2"></path>
+                    <path d="M4,10 L18,10" id="Stroke-7" stroke="#000000" stroke-width="2"></path>
+                    <path d="M5,13 L17,13" id="Stroke-9" stroke="#000000" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

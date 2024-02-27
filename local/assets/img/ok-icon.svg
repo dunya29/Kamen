@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85px" height="85px" viewBox="0 0 85 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>ok-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hover-/-Back-call-Successfull" transform="translate(-234.000000, -143.000000)" stroke-width="2" stroke="#952C21">
+            <g id="ok-icon" transform="translate(235.000000, 144.000000)">
+                <polyline id="Stroke-1" points="22.4844 41.5911 36.6064 57.7851 62.3594 23.8541"></polyline>
+                <path d="M82.333,41.1663 C82.333,63.9023 63.902,82.3333 41.167,82.3333 C18.431,82.3333 0,63.9023 0,41.1663 C0,18.4313 18.431,0.0003 41.167,0.0003 C63.902,0.0003 82.333,18.4313 82.333,41.1663 Z" id="Stroke-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

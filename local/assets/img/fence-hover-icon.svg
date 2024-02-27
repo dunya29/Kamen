@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="42px" viewBox="0 0 64 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>fence-hover-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Main-Menu-/-Fences-/-Hover" transform="translate(-8.000000, -19.000000)">
+            <g id="fence-hover-icon" transform="translate(8.000000, 19.000000)">
+                <g id="Page-1">
+                    <path d="M14,40.9922 L14,6.9922" id="Stroke-1" stroke="#797979" stroke-width="2"></path>
+                    <path d="M23,40.9922 L23,6.9922" id="Stroke-3" stroke="#797979" stroke-width="2"></path>
+                    <path d="M32,40.9922 L32,6.9922" id="Stroke-5" stroke="#797979" stroke-width="2"></path>
+                    <path d="M41,40.9922 L41,6.9922" id="Stroke-7" stroke="#797979" stroke-width="2"></path>
+                    <path d="M50,40.9922 L50,6.9922" id="Stroke-9" stroke="#797979" stroke-width="2"></path>
+                    <path d="M14,5.9912 C17.375,5.9912 14,0.0002 14,0.0002 C14,0.0002 10.625,5.9912 14,5.9912" id="Fill-11" fill="#797979"></path>
+                    <path d="M23,5.9912 C26.375,5.9912 23,0.0002 23,0.0002 C23,0.0002 19.625,5.9912 23,5.9912" id="Fill-13" fill="#797979"></path>
+                    <path d="M32,5.9912 C35.375,5.9912 32,0.0002 32,0.0002 C32,0.0002 28.625,5.9912 32,5.9912" id="Fill-15" fill="#797979"></path>
+                    <path d="M41,5.9912 C44.375,5.9912 41,0.0002 41,0.0002 C41,0.0002 37.625,5.9912 41,5.9912" id="Fill-17" fill="#797979"></path>
+                    <path d="M50,5.9912 C53.375,5.9912 50,0.0002 50,0.0002 C50,0.0002 46.625,5.9912 50,5.9912" id="Fill-19" fill="#797979"></path>
+                    <path d="M11,9.9922 L53,9.9922" id="Stroke-21" stroke="#797979" stroke-width="2"></path>
+                    <path d="M11,35.9922 L53,35.9922" id="Stroke-23" stroke="#797979" stroke-width="2"></path>
+                    <path d="M0,40.9922 L64,40.9922" id="Stroke-25" stroke="#797979" stroke-width="2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

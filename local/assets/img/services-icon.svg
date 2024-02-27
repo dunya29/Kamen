@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="32px" viewBox="0 0 64 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>services-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Main-Menu-/-Services-/-Default" transform="translate(-8.000000, -32.000000)">
+            <g id="services-icon" transform="translate(8.000000, 33.000000)">
+                <path d="M41,5 L43.784,5 C45.324,5 46.799,5.626 47.868,6.735 L52.702,11.748 C53.762,12.846 54.962,13.799 56.272,14.583 L59.984,16.802 C60.426,17.066 60.753,17.485 60.9,17.978 L61.192,18.951 C61.394,19.622 61.381,20.339 61.155,21.003 L60.828,21.967 C60.546,22.799 59.849,23.422 58.99,23.61 L57.208,24 L41,24 L41,5 Z" id="Stroke-1" stroke="#952C21" stroke-width="2"></path>
+                <polygon id="Stroke-3" stroke="#952C21" stroke-width="2" points="3 19 41 19 41 0 3 0"></polygon>
+                <polygon id="Stroke-5" stroke="#952C21" stroke-width="2" points="3 23 41 23 41 19 3 19"></polygon>
+                <path d="M16,24.5 C16,22.567 17.567,21 19.5,21 C21.433,21 23,22.567 23,24.5 C23,26.433 21.433,28 19.5,28 C17.567,28 16,26.433 16,24.5" id="Fill-6" fill="#FFFFFF"></path>
+                <path d="M16,24.5 C16,22.567 17.567,21 19.5,21 C21.433,21 23,22.567 23,24.5 C23,26.433 21.433,28 19.5,28 C17.567,28 16,26.433 16,24.5 Z" id="Stroke-7" stroke="#952C21" stroke-width="2"></path>
+                <path d="M50,24.5 C50,22.567 51.567,21 53.5,21 C55.433,21 57,22.567 57,24.5 C57,26.433 55.433,28 53.5,28 C51.567,28 50,26.433 50,24.5" id="Fill-8" fill="#FFFFFF"></path>
+                <path d="M50,24.5 C50,22.567 51.567,21 53.5,21 C55.433,21 57,22.567 57,24.5 C57,26.433 55.433,28 53.5,28 C51.567,28 50,26.433 50,24.5 Z" id="Stroke-9" stroke="#952C21" stroke-width="2"></path>
+                <path d="M43.0469,8.2573 L43.3799,12.9303 C43.4109,13.3543 43.7449,13.6933 44.1689,13.7303 L51.2659,14.3403 C51.8689,14.3923 52.3879,13.9173 52.3879,13.3113 L48.0439,8.3763 C47.8219,8.1233 47.5079,7.9693 47.1719,7.9493 L43.5679,7.7313 C43.2709,7.7133 43.0259,7.9603 43.0469,8.2573 Z" id="Stroke-10" stroke="#952C21"></path>
+                <polygon id="Fill-11" fill="#952C21" points="16 7 19 7 19 4 16 4"></polygon>
+                <polygon id="Fill-12" fill="#952C21" points="20 7 23 7 23 4 20 4"></polygon>
+                <polygon id="Fill-13" fill="#952C21" points="24 7 27 7 27 4 24 4"></polygon>
+                <polygon id="Fill-14" fill="#952C21" points="16 11 19 11 19 8 16 8"></polygon>
+                <polygon id="Fill-15" fill="#952C21" points="20 11 23 11 23 8 20 8"></polygon>
+                <polygon id="Fill-16" fill="#952C21" points="24 11 27 11 27 8 24 8"></polygon>
+                <polygon id="Fill-17" fill="#952C21" points="16 15 19 15 19 12 16 12"></polygon>
+                <polygon id="Fill-18" fill="#952C21" points="20 15 23 15 23 12 20 12"></polygon>
+                <polygon id="Fill-19" fill="#952C21" points="24 15 27 15 27 12 24 12"></polygon>
+                <path d="M0,30 L64,30" id="Stroke-20" stroke="#952C21" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

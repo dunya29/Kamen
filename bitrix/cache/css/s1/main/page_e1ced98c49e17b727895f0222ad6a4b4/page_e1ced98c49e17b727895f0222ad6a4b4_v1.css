@@ -1,0 +1,90 @@
+
+
+/* Start:/local/templates/main/components/bitrix/system.pagenavigation/sort/style.css?1656605135405*/
+.nav-item {
+	height: 31px;
+	width: 31px;
+	float: left;
+	line-height: 31px;
+	text-align: center;
+	transition: 0.3s;
+	color: #000000;
+	font-family: "Open Sans";
+	font-size: 14px;
+}
+
+.modern-page-navigation .current-item {
+	background-color: #801407;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+.nav-item:hover {
+	background-color: #EBF0F0;
+}
+
+.modern-page-navigation .current-item {
+	background-color: #801407;
+}
+
+/* End */
+
+
+/* Start:/local/templates/main/components/bitrix/news.list/reviews/style.css?1656605135777*/
+.reviews-item {
+	position: relative;
+}
+
+.add_review_img {
+	height: 20px;
+	position: relative;
+	top: 4px;
+	margin-right: 10px;
+}
+
+.add_review {
+	position: absolute;
+    top: -58px;
+    right: 0;
+}
+
+.add_review_link {
+	font-family: "Open Sans";
+	font-size: 19px;
+	line-height: 28px;
+	color: #952C21;
+	transition: all .3s linear;
+}
+
+.add_review_link span {
+	border-bottom: 2px solid rgba(149, 44, 33, .2);
+}
+
+.add_review_link:hover span {
+	border-bottom: 2px solid rgba(149, 44, 33, 1);
+}
+
+.reviews-item .reviews-text {
+	font-family: "Open Sans";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+.reviews-date {
+	position: absolute;
+	right: 10px;
+	top: 1px;
+	color: #952C21;
+}
+.reviews-list hr {
+	border-color: #E3E3E3;
+	margin: 20px 0;
+}
+
+.reviews-list hr:first-child{
+	display: none;
+}
+
+/* End */
+/* /local/templates/main/components/bitrix/system.pagenavigation/sort/style.css?1656605135405 */
+/* /local/templates/main/components/bitrix/news.list/reviews/style.css?1656605135777 */

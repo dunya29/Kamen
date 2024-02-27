@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="48px" viewBox="0 0 64 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>orientation-vert-focused-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Orientation-/-Horizontally-/-Focused" transform="translate(-12.000000, -20.000000)">
+            <g id="orientation-vert-focused-icon" transform="translate(12.000000, 20.000000)">
+                <g id="Group-13">
+                    <path d="M20,43 L20,6.657 C21.886,5.54 29.905,1.314 43.766,1.003 C43.766,1.003 43.986,1 44,1 L44,43 L20,43 Z" id="Fill-3" fill="#952C21"></path>
+                    <path d="M43.959,0 C43.887,0 43.814,0.001 43.743,0.003 C27.296,0.373 19,6.103 19,6.103 L19,19.919 L19,44 L45,44 L45,0.019 C44.643,0.019 44.297,0 43.959,0 M43,2.024 L43,42 L21,42 L21,19.919 L21,7.237 C23.41,5.909 30.813,2.438 43,2.024" id="Fill-5" fill="#952C21"></path>
+                    <polygon id="Fill-7" fill="#952C21" points="16 47 48 47 48 43 16 43"></polygon>
+                    <polygon id="Stroke-9" stroke="#952C21" stroke-width="2" points="16 47 48 47 48 43 16 43"></polygon>
+                    <g id="Group-12" transform="translate(0.000000, 47.000000)">
+                        <path d="M0,0 L64,0" id="Fill-10" fill="#952C21"></path>
+                        <path d="M0,0 L64,0" id="Stroke-11" stroke="#952C21" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

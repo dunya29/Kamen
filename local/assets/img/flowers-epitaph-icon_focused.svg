@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="55px" viewBox="0 0 50 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>flowers-epitaph-icon_focused</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Flowers-+-Epitaph-/-Focused" transform="translate(-19.000000, -19.000000)">
+            <g id="flowers-epitaph-icon_focused" transform="translate(19.000000, 19.000000)">
+                <g id="Group-38">
+                    <path d="M9.5,53.8501 L9.5,11.4391 C11.024,10.2051 22.524,1.4121 40.5,1.2511 L40.5,53.8501 L9.5,53.8501 Z" id="Fill-2" fill="#952C21"></path>
+                    <path d="M41,0.749 C21.037,0.749 9,11.204 9,11.204 L9,54.35 L41,54.35 L41,0.749 Z M40,1.758 L40,53.35 L10,53.35 L10,11.68 C12.047,10.07 23.067,2.065 40,1.758 L40,1.758 Z" id="Fill-4" fill="#952C21"></path>
+                    <g id="Group-9" transform="translate(0.000000, 54.000000)">
+                        <path d="M0,0.5 L50,0.5" id="Fill-6" fill="#E4E4E4"></path>
+                        <path d="M0,0.5 L50,0.5" id="Stroke-8" stroke="#952C21"></path>
+                    </g>
+                    <g id="Group-13" transform="translate(15.000000, 39.000000)">
+                        <path d="M0,0.5 L20,0.5" id="Fill-10" fill="#797979"></path>
+                        <path d="M0,0.5 L20,0.5" id="Stroke-12" stroke="#FFFFFF"></path>
+                    </g>
+                    <g id="Group-17" transform="translate(15.000000, 42.000000)">
+                        <path d="M0,0.5 L20,0.5" id="Fill-14" fill="#797979"></path>
+                        <path d="M0,0.5 L20,0.5" id="Stroke-16" stroke="#FFFFFF"></path>
+                    </g>
+                    <g id="Group-21" transform="translate(18.000000, 45.000000)">
+                        <path d="M0,0.5 L14,0.5" id="Fill-18" fill="#797979"></path>
+                        <path d="M0,0.5 L14,0.5" id="Stroke-20" stroke="#FFFFFF"></path>
+                    </g>
+                    <path d="M15.0449,21.4873 C13.6879,22.5873 15.7169,22.8573 14.4359,23.2833 C14.0929,23.3973 13.8939,23.8313 13.8939,23.8313 C13.8939,23.8313 13.6719,24.2543 13.7909,24.5943 C14.2369,25.8703 12.7819,24.4283 12.7419,26.1743 C12.7419,26.1743 17.0239,30.1483 18.9149,26.2983 C20.8069,22.4473 15.0449,21.4873 15.0449,21.4873" id="Fill-22" fill="#FFFFFF"></path>
+                    <g id="Group-27" transform="translate(18.000000, 26.000000)">
+                        <path d="M15.0732,7.2524 L0.9152,0.2974" id="Fill-24" fill="#797979"></path>
+                        <path d="M15.0732,7.2524 L0.9152,0.2974" id="Stroke-26" stroke="#FFFFFF"></path>
+                    </g>
+                    <path d="M20.3008,30.8613 C20.3008,30.8613 24.7958,32.8903 28.9998,31.4563 L28.3828,31.1533 C28.3828,31.1533 22.2208,29.7603 20.3008,30.8613" id="Fill-28" fill="#FFFFFF"></path>
+                    <path d="M21.7999,16.289 C21.4389,16.285 21.1089,16.63 21.1089,16.63 C21.1089,16.63 20.7619,16.957 20.7629,17.318 C20.7689,18.669 19.8639,16.832 19.2559,18.47 C19.2559,18.47 22.0079,23.622 25.0509,20.6 C28.0949,17.577 22.9619,14.79 22.9619,14.79 C21.3199,15.387 23.1499,16.304 21.7999,16.289 Z" id="Fill-30" fill="#FFFFFF"></path>
+                    <g id="Group-35" transform="translate(25.000000, 21.000000)">
+                        <path d="M11,11 L0,0" id="Fill-32" fill="#797979"></path>
+                        <path d="M11,11 L0,0" id="Stroke-34" stroke="#FFFFFF"></path>
+                    </g>
+                    <path d="M24.8721,25.3652 C24.8721,25.3652 28.4601,28.7502 32.9021,28.7652 L32.4181,28.2772 C32.4181,28.2772 27.0471,24.9512 24.8721,25.3652" id="Fill-36" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

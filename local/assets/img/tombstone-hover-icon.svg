@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="15px" viewBox="0 0 64 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>tombstone-hover-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Main-Menu-/-Tombstones-/-Hover" transform="translate(-8.000000, -46.000000)">
+            <g id="tombstone-hover-icon" transform="translate(8.000000, 46.000000)">
+                <g id="Page-1">
+                    <path d="M16,15 L47.999,15 L47.999,8 L16,8 L16,15 Z M18,13.001 L46,13.001 L46,10 L18,10 L18,13.001 Z" id="Fill-1" fill="#797979"></path>
+                    <path d="M8,15 L18,15 L18,6 L8,6 L8,15 Z M10,13 L16,13 L16,8 L10,8 L10,13 Z" id="Fill-2" fill="#797979"></path>
+                    <path d="M46,15 L56,15 L56,6 L46,6 L46,15 Z M48,13 L54,13 L54,8 L48,8 L48,13 Z" id="Fill-3" fill="#797979"></path>
+                    <g id="Group-10">
+                        <path d="M0,14 L64,14" id="Stroke-4" stroke="#797979" stroke-width="2"></path>
+                        <path d="M13,0 C11.343,0 10,1.343 10,3 C10,4.657 11.343,6 13,6 C14.657,6 16,4.657 16,3 C16,1.343 14.657,0 13,0 M13,2 C13.552,2 14,2.449 14,3 C14,3.551 13.552,4 13,4 C12.448,4 12,3.551 12,3 C12,2.449 12.448,2 13,2" id="Fill-6" fill="#797979"></path>
+                        <path d="M51,0 C49.343,0 48,1.343 48,3 C48,4.657 49.343,6 51,6 C52.657,6 54,4.657 54,3 C54,1.343 52.657,0 51,0 M51,2 C51.552,2 52,2.449 52,3 C52,3.551 51.552,4 51,4 C50.448,4 50,3.551 50,3 C50,2.449 50.448,2 51,2" id="Fill-8" fill="#797979"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

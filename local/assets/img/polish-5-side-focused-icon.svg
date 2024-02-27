@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="63px" viewBox="0 0 48 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>polish-5-side-focused-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Memorial-/-Polish-/-5-side-/-Focused" transform="translate(-19.000000, -15.000000)">
+            <g id="polish-5-side-focused-icon" transform="translate(19.000000, 15.000000)">
+                <polygon id="Fill-3" fill="#952C21" points="1.7744 56.5381 25.6654 42.5001 46.2554 42.5001 23.3604 56.9971"></polygon>
+                <path d="M47.9805,42 L25.5295,42 L0.0005,57 L23.5005,57.5 L47.9805,42 Z M44.5315,43 L23.2195,56.494 L3.5475,56.075 L25.8005,43 L44.5315,43 Z" id="Fill-4" fill="#952C21"></path>
+                <polygon id="Fill-5" fill="#952C21" points="20 54.9062 20 10.0002 37 0.0002 37 45.0222"></polygon>
+                <polygon id="Stroke-6" points="20 54.9062 20 10.0002 37 0.0002 37 45.0222"></polygon>
+                <polygon id="Fill-7" fill="#952C21" points="13.8613 9.5 29.4083 0.5 35.1643 0.5 19.8643 9.5"></polygon>
+                <path d="M37,0 L29.273,0 L12,10 L20,10 L37,0 Z M33.328,1 L19.728,9 L15.724,9 L29.542,1 L33.328,1 Z" id="Fill-8" fill="#952C21"></path>
+                <polygon id="Fill-9" fill="#952C21" points="0.5 62.5 22.5 62.5 22.5 57.5 0.5 57.5"></polygon>
+                <path d="M0,63 L23,63 L23,57 L0,57 L0,63 Z M1,62 L22,62 L22,58 L1,58 L1,62 Z" id="Fill-10" fill="#952C21"></path>
+                <polygon id="Fill-11" fill="#952C21" points="24.3184 57.5771 47.4804 42.9081 47.4804 47.6611 24.4624 62.1131"></polygon>
+                <path d="M47.9805,42 L23.8095,57.308 L23.9905,63 L47.9805,47.937 L47.9805,42 Z M46.9805,43.817 L46.9805,47.385 L24.9345,61.227 L24.8275,57.847 L46.9805,43.817 Z" id="Fill-12" fill="#952C21"></path>
+                <polygon id="Fill-13" fill="#952C21" points="12.5 54.5 19.5 54.5 19.5 10.5 12.5 10.5"></polygon>
+                <path d="M12,55 L20,55 L20,10 L12,10 L12,55 Z M13,54 L19,54 L19,11 L13,11 L13,54 Z" id="Fill-14" fill="#952C21"></path>
+                <g id="Group-17" transform="translate(12.000000, 0.000000)">
+                    <polyline id="Fill-15" fill="#952C21" points="0 10.5 8 10.5 25 0.5"></polyline>
+                    <polyline id="Stroke-16" stroke="#D3837F" points="0 10.5 8 10.5 25 0.5"></polyline>
+                </g>
+                <path d="M20.5001,55 L20.5001,10.206 L20.5001,55 Z" id="Fill-18" fill="#4A4A4A"></path>
+                <path d="M20.5,10.2061 L20.5,55.0001" id="Stroke-19" stroke="#D3837F"></path>
+                <polyline id="Stroke-20" stroke="#D3837F" points="23.5 63 23.5 57.5 47.98 42.292"></polyline>
+                <path d="M0,57.5 L23.5,57.5" id="Stroke-21" stroke="#D3837F"></path>
+            </g>
+        </g>
+    </g>
+</svg>

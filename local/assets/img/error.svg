@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>error</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Cancel-/-Default">
+            <g id="error">
+                <path d="M8,0 C3.582,0 0,3.582 0,8 C0,12.418 3.582,16 8,16 C12.418,16 16,12.418 16,8 C16,3.582 12.418,0 8,0 M8,1 C11.86,1 15,4.14 15,8 C15,11.86 11.86,15 8,15 C4.14,15 1,11.86 1,8 C1,4.14 4.14,1 8,1" id="Fill-1" fill="#952C21"></path>
+                <path d="M4,8 L12,8" id="Stroke-3" stroke="#952C21" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

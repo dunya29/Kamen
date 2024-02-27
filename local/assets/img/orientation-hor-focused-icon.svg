@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="30px" viewBox="0 0 64 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>orientation-hor-focused-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Orientation-/-Vertically-/-Focused" transform="translate(-12.000000, -38.000000)">
+            <g id="orientation-hor-focused-icon" transform="translate(12.000000, 38.000000)">
+                <path d="M13,23 L13,4.132 C16.099,3.484 28.607,1.173 50.074,1.001 L51,1.003 L51,23 L13,23 Z" id="Fill-2" fill="#952C21"></path>
+                <path d="M50.3984,0 C50.2874,0 50.1764,0 50.0664,0.001 C24.7634,0.204 12.0004,3.329 12.0004,3.329 L12.0004,10.865 L12.0004,24 L52.0004,24 L52.0004,0.01 C51.4504,0.01 50.9184,0 50.3984,0 M50.0004,2.002 L50.0004,22 L14.0004,22 L14.0004,10.865 L14.0004,4.949 C18.0474,4.157 30.1304,2.166 50.0004,2.002" id="Fill-4" fill="#952C21"></path>
+                <polygon id="Stroke-8" stroke="#952C21" stroke-width="2" points="8 29 56 29 56 25 8 25"></polygon>
+                <polygon id="Fill-6" fill="#952C21" points="8 29 56 29 56 25 8 25"></polygon>
+                <path d="M0,29 L64,29" id="Stroke-9" stroke="#952C21" stroke-width="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

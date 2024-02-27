@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="28px" viewBox="0 0 64 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>accessories-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Main-Menu-/-Accessories-/-Default" transform="translate(-8.000000, -36.000000)" stroke-width="2" stroke="#952C21">
+            <g id="accessories-icon" transform="translate(8.000000, 36.000000)">
+                <g id="Page-1">
+                    <polygon id="Stroke-1" points="10 17 54 17 54 14 10 14"></polygon>
+                    <g id="Group-8" transform="translate(12.000000, 0.000000)">
+                        <polygon id="Stroke-2" points="3 27 6 27 6 17 3 17"></polygon>
+                        <polygon id="Stroke-4" points="34 27 37 27 37 17 34 17"></polygon>
+                        <path d="M4,0 L4,13.125" id="Stroke-5"></path>
+                        <path d="M36,0 L36,13.125" id="Stroke-6"></path>
+                        <path d="M0,1 L41,1" id="Stroke-7" stroke-linecap="square"></path>
+                    </g>
+                    <path d="M12,5 L53,5" id="Stroke-9" stroke-linecap="square"></path>
+                    <path d="M12,9 L53,9" id="Stroke-10" stroke-linecap="square"></path>
+                    <path d="M0,27 L64,27" id="Stroke-11"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

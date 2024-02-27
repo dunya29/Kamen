@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="55px" viewBox="0 0 50 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>epitaph-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Epitaph-/-Default" transform="translate(-19.000000, -19.000000)">
+            <g id="epitaph-icon" transform="translate(19.000000, 19.000000)">
+                <g id="Group-22">
+                    <path d="M9.5,53.8501 L9.5,11.4391 C11.024,10.2051 22.524,1.4121 40.5,1.2511 L40.5,53.8501 L9.5,53.8501 Z" id="Fill-2" fill="#797979"></path>
+                    <path d="M41,0.749 C21.037,0.749 9,11.204 9,11.204 L9,54.35 L41,54.35 L41,0.749 Z M40,1.758 L40,53.35 L10,53.35 L10,11.68 C12.047,10.07 23.067,2.065 40,1.758 L40,1.758 Z" id="Fill-4" fill="#797979"></path>
+                    <g id="Group-9" transform="translate(0.000000, 54.000000)">
+                        <path d="M0,0.5 L50,0.5" id="Fill-6" fill="#E4E4E4"></path>
+                        <path d="M0,0.5 L50,0.5" id="Stroke-8" stroke="#797979"></path>
+                    </g>
+                    <g id="Group-13" transform="translate(15.000000, 39.000000)">
+                        <path d="M0,0.5 L20,0.5" id="Fill-10" fill="#797979"></path>
+                        <path d="M0,0.5 L20,0.5" id="Stroke-12" stroke="#CBCBCB"></path>
+                    </g>
+                    <g id="Group-17" transform="translate(15.000000, 42.000000)">
+                        <path d="M0,0.5 L20,0.5" id="Fill-14" fill="#797979"></path>
+                        <path d="M0,0.5 L20,0.5" id="Stroke-16" stroke="#CBCBCB"></path>
+                    </g>
+                    <g id="Group-21" transform="translate(18.000000, 45.000000)">
+                        <path d="M0,0.5 L14,0.5" id="Fill-18" fill="#797979"></path>
+                        <path d="M0,0.5 L14,0.5" id="Stroke-20" stroke="#CBCBCB"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
