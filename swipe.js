@@ -7,17 +7,19 @@ function showFilterBtn() {
   if (document.querySelector('.catalog').getBoundingClientRect().top - window.innerHeight < 0) {
     if (document.querySelector(".catalog__section-content").getBoundingClientRect().bottom < window.innerHeight) {
       filterBar.classList.remove("btn-visible")
+      filterBar.classList.remove("show")
     } else {
       filterBar.classList.add("btn-visible")
     }
   } else {
     filterBar.classList.remove("btn-visible")
+    filterBar.classList.remove("show")
 }
 }
 function swipeRight(e) {
   if (e.deltaX > 0 && !filterBar.classList.contains("show")) {
-    if (e.deltaX >= filterBody.clientWidth) {
-      filterBar.style.transform = 'translate3d('+ filterBody.clientWidth +'px, 0, 0)'
+    if (e.deltaX >= (filterBody.clientWidth + 10)) {
+      filterBar.style.transform = 'translate3d('+ (filterBody.clientWidth + 10)+'px, 0, 0)'
     } else {
       filterBar.style.transform = 'translate3d('+ e.deltaX +'px, 0, 0)'
     }
@@ -25,10 +27,10 @@ function swipeRight(e) {
 }
 function swipeLeft(e) {
   if (e.deltaX < 0 && filterBar.classList.contains("show")) {
-    if (Math.abs(e.deltaX) <= filterBody.clientWidth) {
+    if (Math.abs(e.deltaX) <= (filterBody.clientWidth + 10)) {
       filterBar.style.transform = 'translate3d('+ e.deltaX +'px, 0, 0)'
     } else {
-      filterBar.style.transform = 'translate3d('- filterBody.clientWidth +'px, 0, 0)'
+      filterBar.style.transform = 'translate3d('- (filterBody.clientWidth + 10) +'px, 0, 0)'
     }
   }
 }
@@ -56,14 +58,14 @@ function initSwipeEvent() {
   if(filterBar && window.innerWidth <= 764) {
     showFilterBtn()
     btnSwipe = new Hammer(btnFilter);
-    filterSwipe = new Hammer(filterBody);
+/*     filterSwipe = new Hammer(filterBody); */
     btnSwipe.on("pan", function(e) {
       swipeRight(e)
       swipeLeft(e)
     })
     btnSwipe.on("panend", e => swipeEnd(e)) 
-    filterSwipe.on("pan", e => swipeLeft(e))
-    filterSwipe.on("panend", e => swipeEnd(e)) 
+/*     filterSwipe.on("pan", e => swipeLeft(e))
+    filterSwipe.on("panend", e => swipeEnd(e))  */
     btnFilter.addEventListener("click", () => {
       if (!filterBar.classList.contains("show")) {
         showBar()
@@ -72,9 +74,9 @@ function initSwipeEvent() {
       }
     }) 
   } else if( filterBar && window.innerWidth > 764 && filterSwipe) {
-    filterSwipe.destroy()
+   /*  filterSwipe.destroy()
     filterSwipe.off("pan", e => swipeLeft(e))
-    filterSwipe.off("panend", e => swipeEnd(e)) 
+    filterSwipe.off("panend", e => swipeEnd(e)) */
   }
 }
 initSwipeEvent()
