@@ -1,19 +1,21 @@
-let btnFilter = document.querySelector(".btn-filter") 
-let filterBar = document.querySelector(".left-bar") 
-let filterBody = document.querySelector(".filter-body") 
+const btnFilter = document.querySelector(".btn-filter") 
+const filterBar = document.querySelector(".left-bar") 
+const filterBody = document.querySelector(".filter-body") 
+let btnSwipe 
+let filterSwipe
 function showFilterBtn() {
-    if (document.querySelector('.catalog').getBoundingClientRect().top - window.innerHeight < 0) {
-        if (document.querySelector(".catalog__section-content").getBoundingClientRect().bottom < window.innerHeight) {
-          filterBar.classList.remove("btn-visible")
-        } else {
-          filterBar.classList.add("btn-visible")
-        }
-      } else {
-        filterBar.classList.remove("btn-visible")
-      }
+  if (document.querySelector('.catalog').getBoundingClientRect().top - window.innerHeight < 0) {
+    if (document.querySelector(".catalog__section-content").getBoundingClientRect().bottom < window.innerHeight) {
+      filterBar.classList.remove("btn-visible")
+    } else {
+      filterBar.classList.add("btn-visible")
+    }
+  } else {
+    filterBar.classList.remove("btn-visible")
+}
 }
 function swipeRight(e) {
-  if (e.deltaX > 0) {
+  if (e.deltaX > 0 && !filterBar.classList.contains("show")) {
     if (e.deltaX >= filterBody.clientWidth) {
       filterBar.style.transform = 'translate3d('+ filterBody.clientWidth +'px, 0, 0)'
     } else {
@@ -40,11 +42,6 @@ function swipeEnd(e) {
   }
   filterBar.style.transform = 'translate3d(0, 0, 0)'
 }
-showFilterBtn()
-window.addEventListener("scroll", showFilterBtn)
-window.addEventListener("resize", showFilterBtn)
-let btnSwipe = new Hammer(btnFilter);
-let filterSwipe = new Hammer(filterBody);
 function showBar() {
   document.body.classList.add("modal-open")
   filterBar.classList.add("show");
@@ -55,17 +52,35 @@ function unShowBar() {
   filterBar.classList.remove("show");
   btnFilter.classList.remove("open")
 }
-btnSwipe.on("pan", function(e) {
-  swipeRight(e)
-  swipeLeft(e)
-})
-btnSwipe.on("panend", e => swipeEnd(e)) 
-filterSwipe.on("pan", e => swipeLeft(e))
-filterSwipe.on("panend", e => swipeEnd(e)) 
-btnFilter.addEventListener("click", () => {
-  if (!filterBar.classList.contains("show")) {
-    showBar()
-  } else {
-    unShowBar()
+function initSwipeEvent() {
+  if(filterBar && window.innerWidth <= 764) {
+    showFilterBtn()
+    btnSwipe = new Hammer(btnFilter);
+    filterSwipe = new Hammer(filterBody);
+    btnSwipe.on("pan", function(e) {
+      swipeRight(e)
+      swipeLeft(e)
+    })
+    btnSwipe.on("panend", e => swipeEnd(e)) 
+    filterSwipe.on("pan", e => swipeLeft(e))
+    filterSwipe.on("panend", e => swipeEnd(e)) 
+    btnFilter.addEventListener("click", () => {
+      if (!filterBar.classList.contains("show")) {
+        showBar()
+      } else {
+        unShowBar()
+      }
+    }) 
+  } else if( filterBar && window.innerWidth > 764 && filterSwipe) {
+    filterSwipe.destroy()
+    filterSwipe.off("pan", e => swipeLeft(e))
+    filterSwipe.off("panend", e => swipeEnd(e)) 
   }
-}) 
+}
+initSwipeEvent()
+window.addEventListener("resize", initSwipeEvent)
+window.addEventListener("scroll", () => {
+  if(filterBar && window.innerWidth <= 764) {
+    showFilterBtn()
+  }
+})
