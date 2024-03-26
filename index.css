@@ -1,161 +1,76 @@
-.btn-filter {
-    display: none;
+  .filter-submit {
+    width: calc(100% - 30px);
+    padding: 12px;
+    border: none;
+    background: #952C21;
+    color: #FFF;
+    text-align: center;
+    font-weight: bold;
+    transition: all .3s linear;
+    margin: 10px auto 0;
+    cursor: pointer;
   }
-  
   @media only screen and (max-width: 764px) {
     .filter {
       height: auto;
       border-right: 0;
-    }
-  
-    .filter .close-btn,
-    .filter-btn {
-      display: none;
-    }
-  
+    } 
     .left-bar {
-      width: 312px;
-      padding-right: 36px;
-      background: none;
-      overflow: visible;
+      width: 100%!important;
+      padding: 10px 10px 0;
+      background: rgba(0, 0, 0, 0.1);
+      overflow: visible!important;
       position: fixed;
-      top: 10px;
+      top: 0!important;
       bottom: 0;
-      height: calc(100% - 10px);
-      left: -277px;
+      height: 100%!important;
+      left: 0!important;
       -webkit-box-shadow: none;
       box-shadow: none;
+      -webkit-transition: all 0.3s .2s linear;
+      transition: all 0.3s .2s linear;
+      visibility: hidden;
       opacity: 0;
-      -webkit-transition: all 0.3s linear;
-      transition: all 0.3s linear;
+      pointer-events: none;
     }
-  
-    .left-bar.show {
-      width: 312px;
-      overflow: visible;
-      height: calc(100% - 10px);
-    }
-  
-    .left-bar.show:before {
-      -webkit-filter: drop-shadow(3.5px 0 16px rgba(0, 0, 0, 0.5));
-      filter: drop-shadow(3.5px 0 16px rgba(0, 0, 0, 0.5));
-    }
-  
-    .left-bar.show .btn-filter__handler {
-      -webkit-filter: drop-shadow(18px 0 16px rgba(0, 0, 0, 0.35));
-      filter: drop-shadow(18px 0 16px rgba(0, 0, 0, 0.35));
-    }
-  
-    .left-bar.btn-visible {
-      opacity: 1;
-    }
-  
     .left-bar:before {
       content: "";
       background: #fff;
       position: absolute;
-      top: 0;
-      left: -0.5px;
-      width: 277px;
+      top: 10px;
+      left: 10px;
+      width: 276px;
       height: 100%;
       z-index: -1;
-      -webkit-filter: drop-shadow(3.5px 0 16px rgba(0, 0, 0, 0.2));
-      filter: drop-shadow(3.5px 0 16px rgba(0, 0, 0, 0.2));
+      -webkit-filter: drop-shadow(18px 0 16px rgba(0, 0, 0, 0.35));
+      filter: drop-shadow(18px 0 16px rgba(0, 0, 0, 0.35));
+      transform: translateX(-100%);
+      transition: transform .3s linear;
+      -webkit-transition: transform 0.3s linear;
     }
-  
+    .left-bar.show {
+      visibility: visible;
+      opacity: 1;
+      transition: all 0.3s linear;
+      -webkit-transition: all 0.3s linear;
+      pointer-events: all;
+    }
+    .left-bar.show .filter-body,
+    .left-bar.show:before {
+      transform: translateX(0);
+      transition: transform .3s .2s linear;
+      -webkit-transition: transform 0.3s .2s linear;
+    }
     .filter-body {
+      width: 276px;
       background: #fff;
       border-right: 0;
       height: 100%;
       overflow-y: auto;
+      touch-action: pan-y !important;
       position: relative;
-    }
-  
-    .btn-filter {
-      display: block;
-      position: absolute;
-      bottom: 10%;
-      right: 0;
-      width: 36px;
-      height: 262px;
-      -webkit-transition: all 0.3s linear;
-      transition: all 0.3s linear;
-    }
-  
-    .btn-filter.open .btn-filter__icon--filter {
-      opacity: 0;
-    }
-  
-    .btn-filter.open .btn-filter__icon--close {
-      opacity: 1;
-    }
-  
-    .btn-filter__handler {
-      position: absolute;
-      top: 0;
-      left: 0px;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      -webkit-transition: drop-shadow 0.3s linear; 
-      transition: drop-shadow 0.3s linear;
-      -webkit-filter: drop-shadow(18px 0 16px rgba(0, 0, 0, 0.15));
-      filter: drop-shadow(18px 0 16px rgba(0, 0, 0, 0.15));
-    }
-  
-    .btn-filter__handler svg {
-      width: 100%;
-      height: 100%;
-    }
-  
-    .btn-filter__icon {
-      width: 20px;
-      height: 20px;
-      position: absolute;
-      top: calc(50% - 10px);
-      left: calc(50% - 10px);
-      -webkit-transition: all 0.3s linear;
-      transition: all 0.3s linear;
-    }
-  
-    .btn-filter__icon svg {
-      width: 100%;
-      height: 100%;
-    }
-  
-    .btn-filter__icon--close {
-      opacity: 0;
-    }
-  }
-  
-  @media only screen and (max-width: 480px) {
-    .left-bar {
-      top: 0;
-      height: 100%;
-    }
-  
-    .left-bar.show {
-      top: 0;
-      height: 100%;
-    }
-  
-    .btn-filter {
-      width: 28px;
-      height: 212px;
-      right: 8px;
-    }
-  
-    .btn-filter__icon {
-      width: 16px;
-      height: 16px;
-      top: calc(50% - 8px);
-      left: calc(50% - 8px);
-    }
-  }
-  
-  @media only screen and (max-height: 480px) {
-    .btn-filter {
-      height: 200px;
-      bottom: calc(50% - 100px);
-    }
+      transform: translateX(-100%);
+      transition: transform .3s linear;
+      -webkit-transition: transform 0.3s linear;
+    } 
   }
